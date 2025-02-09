@@ -1,6 +1,6 @@
 +++
 date = '2025-02-08T18:18:07+01:00'
-draft = true
+draft = false
 title = 'What Is Boot'
 weight = 10
 +++

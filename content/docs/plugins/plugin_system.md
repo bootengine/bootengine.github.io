@@ -1,6 +1,6 @@
 +++
 date = '2025-02-08T18:08:42+01:00'
-draft = true
+draft = false
 title = 'Plugin system'
 weight = 10
 +++

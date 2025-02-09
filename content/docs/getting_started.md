@@ -1,6 +1,6 @@
 +++
 date = '2025-02-08T18:07:42+01:00'
-draft = true
+draft = false
 title = 'Getting started'
 weight = 40
 +++
@@ -122,6 +122,8 @@ boot check -f boot-express-api.yaml
 
 
 ## Running our generator
+
+Now that we checked our generator, we can simply execute it :
 
 ```bash
 boot gen -f boot-express-api.yaml
