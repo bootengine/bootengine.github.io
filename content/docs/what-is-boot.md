@@ -2,6 +2,7 @@
 date = '2025-02-08T18:18:07+01:00'
 draft = false
 title = 'What Is Boot'
+summary = "Discover what boot is, why it was created and how it compare to other solution"
 weight = 10
 +++
 

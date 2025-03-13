@@ -3,6 +3,7 @@ date = '2025-02-08T18:08:42+01:00'
 draft = false
 title = 'Plugin system'
 weight = 10
+summary = 'Plugins are the best way to tune your boot instance to your own needs. Learn how they are integrated to boot to get the best of it.'
 +++
 
 The plugin system is a very important part of `boot`. It's what make `boot` able to generate project for any language and it's also what makes `boot` able to be personallized with almost any language.

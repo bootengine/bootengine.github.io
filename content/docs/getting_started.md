@@ -3,6 +3,8 @@ date = '2025-02-08T18:07:42+01:00'
 draft = false
 title = 'Getting started'
 weight = 40
+summary = "Discovering a new tool might be cumbersome, we made it easy for you. Check how !"
+next= '/docs/plugins'
 +++
 
 ## Create the generator file

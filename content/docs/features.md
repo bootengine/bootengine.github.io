@@ -2,6 +2,7 @@
 date = '2025-02-08T18:07:04+01:00'
 draft = true
 title = 'Features'
+summary = 'What is the core of boot ? What makes him unique or different ?'
 weight = 20
 +++
 
