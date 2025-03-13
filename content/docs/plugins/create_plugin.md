@@ -1,6 +1,6 @@
 +++
 date = '2025-02-08T18:07:56+01:00'
-draft = true
+draft = false
 title = 'Create plugin'
 summary = "Learn how to use your favorite language to enhance boot capabilities by creating your own plugin."
 weight = 20
