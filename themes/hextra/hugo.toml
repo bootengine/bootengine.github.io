@@ -1,6 +1,10 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-US'
-title = 'My New Hugo Site'
+[params.navbar]
+logo = {path = 'images/logo.jpg'}
+
+[[menus.main]]
+name = 'Search'
+weight = 5
+params = {type = 'search'}
 
 [[menus.main]]
 name = 'Home'
@@ -11,6 +15,12 @@ weight = 10
 name = 'Documentation'
 pageRef = '/docs'
 weight = 20
+
+[[menus.main]]
+name = "GitHub"
+weight= 30
+url= "https://github.com/bootengine/boot"
+params = { icon = 'github'}
 
 [module]
   [module.hugoVersion]
