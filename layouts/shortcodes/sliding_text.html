@@ -1,0 +1,15 @@
+<style>
+li span {-webkit-background-clip: text; font-weight: 900}
+{{ $arrLen := (split (strings.TrimSpace .Inner)  "\n" ) | len}}
+{{ $nbItem := add $arrLen 1}}
+{{ $x := div 99 (mul 2 $nbItem)}}
+li {animation: slide-up {{mul 3 $nbItem }}s infinite; height: 3.8rem; line-height: 3.8rem; margin: 0 !important; text-align: center} 
+@keyframes slide-up{
+	{{range seq 0 (sub $arrLen  1)}}
+		{{add (mul . $x) (mul . $x)}}%, {{ add (mul (add . 1) $x) (mul . $x)}}% {
+			transform: translateY(-{{mul . 100}}%);
+		}
+	{{end}}
+}
+</style>
+<h1 style="font-weight: lighter;display: flex; flex-direction: row; align-content: center; height: 3.8rem;line-height: 3.8rem; width: 100vw;">{{.Get "beginning"}} <ul style="display: inline-block; list-style: none; --height: 3.8rem; width: auto; margin: 0 1em ; height: var(--height); line-height: var(--height); overflow: hidden;">{{.Inner}} </ul> {{.Get "end"}}</h1>
